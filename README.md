@@ -10,8 +10,8 @@ The goal is to compare traditional fully connected neural networks with CNN-base
 |---|--------------------------:|-----------------------------:|
 | MNIST |                       97% |                          99% |
 | Fashion-MNIST |                       88% |                          91% |
-| CIFAR-10 |               Coming Soon |                  Coming Soon |
-| CIFAR-100 |               Coming Soon |                  Coming Soon |
+| CIFAR-10 |                         ? |                            ? |
+| CIFAR-100 |                         ? |                            ? |
 
 > **Note:** Accuracy values will be added after evaluating each model on its test dataset. CIFAR-10 and CIFAR-100 implementations are planned for the future.
 
