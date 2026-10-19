@@ -10,8 +10,8 @@ The goal is to compare traditional fully connected neural networks with CNN-base
 |---|--------------------------:|-----------------------------:|
 | MNIST |                       97% |                          99% |
 | Fashion-MNIST |                       88% |                          91% |
-| CIFAR-10 |                         ? |                            ? |
-| CIFAR-100 |                         ? |                            ? |
+| CIFAR-10 |                       43% |                          71% |
+| CIFAR-100 |                       17% |                          25% |
 
 > **Note:** Accuracy values will be added after evaluating each model on its test dataset. CIFAR-10 and CIFAR-100 implementations are planned for the future.
 
@@ -20,12 +20,12 @@ Mnist :
 <br>
 ML:
 <br>
-<img src="Mnist Dataset/output/ML_accuracy_loss.png">
+<img src="Mnist Dataset/output/ML_accuracy_loss.png" width=300px height=300px>
 ---
 <br>
 DL:
 <br>
-<img src="Mnist Dataset/output/DL_accuracy_loss.png">
+<img src="Mnist Dataset/output/DL_accuracy_loss.png" width=300px height=300px>
 
 -------------------------------------
 ---
@@ -33,12 +33,41 @@ Fashion Mnist :
 <br>
 ML:
 <br>
-<img src="Fashion_Mnist/output/ML_accuracy_loss.png">
+<img src="Fashion_Mnist/output/ML_accuracy_loss.png" width=300px height=300px>
 ---
 <br>
 DL:
 <br>
-<img src="Fashion_Mnist/output/DL_accuracy_loss.png">
+<img src="Fashion_Mnist/output/DL_accuracy_loss.png" width=300px height=300px>
+
+-------------------------------------
+---
+CIFAR 10 :
+<br>
+ML:
+<br>
+<img src="CIFAR 10/output/ML_accuracy_loss.png" width=300px height=300px>
+---
+<br>
+DL:
+<br>
+<img src="CIFAR 10/output/DL_accuracy_loss.png" width=300px height=300px>
+
+
+-------------------------------------
+---
+CIFAR 100 :
+<br>
+ML:
+<br>
+<img src="CIFAR 100/output/ML_accuracy_loss.png" width=300px height=300px>
+---
+<br>
+DL:
+<br>
+<img src="CIFAR 100/output/DL_accuracy_loss.png" width=300px height=300px>
+
+
 
 
 ## 📁 Project Structure
@@ -128,9 +157,9 @@ The models use the Adam optimizer, Sparse Categorical Crossentropy loss, and acc
 - [x] Implement a CNN for MNIST.
 - [x] Compare MLP and CNN on Fashion-MNIST.
 - [ ] Improve model accuracy through architecture and hyperparameter tuning.
-- [ ] Implement and evaluate CIFAR-10 models.
-- [ ] Implement and evaluate CIFAR-100 models.
-- [ ] Complete the accuracy comparison table.
+- [x] Implement and evaluate CIFAR-10 models.
+- [x] Implement and evaluate CIFAR-100 models.
+- [x] Complete the accuracy comparison table.
 
 ## 🎯 Project Goal
 
