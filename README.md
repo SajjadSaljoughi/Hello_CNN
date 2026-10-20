@@ -12,45 +12,36 @@ The goal is to compare traditional fully connected neural networks with CNN-base
 | Fashion-MNIST |                       88% |                          91% |
 | CIFAR-10 |                       43% |                          71% |
 | CIFAR-100 |                       17% |                          25% |
-
-> **Note:** Accuracy values will be added after evaluating each model on its test dataset. CIFAR-10 and CIFAR-100 implementations are planned for the future.
-
 ---
 Mnist :
 <br>
-ML:
+<pre>
+ML:                          DL:
+</pre>
 <br>
 <img src="Mnist Dataset/output/ML_accuracy_loss.png" width=300px height=300px>
----
-<br>
-DL:
-<br>
 <img src="Mnist Dataset/output/DL_accuracy_loss.png" width=300px height=300px>
 
 -------------------------------------
 ---
 Fashion Mnist :
 <br>
-ML:
+<pre>
+ML:                          DL:
+</pre>
 <br>
 <img src="Fashion_Mnist/output/ML_accuracy_loss.png" width=300px height=300px>
----
-<br>
-DL:
-<br>
 <img src="Fashion_Mnist/output/DL_accuracy_loss.png" width=300px height=300px>
 
 -------------------------------------
 ---
 CIFAR 10 :
 <br>
-ML:
+<pre>
+ML:                          DL:
+</pre>
 <br>
 <img src="CIFAR 10/output/ML_accuracy_loss.png" width=300px height=300px>
----
-<br>
-DL:
-<br>
 <img src="CIFAR 10/output/DL_accuracy_loss.png" width=300px height=300px>
 
 
@@ -58,13 +49,11 @@ DL:
 ---
 CIFAR 100 :
 <br>
-ML:
+<pre>
+ML:                          DL:
+</pre>
 <br>
 <img src="CIFAR 100/output/ML_accuracy_loss.png" width=300px height=300px>
----
-<br>
-DL:
-<br>
 <img src="CIFAR 100/output/DL_accuracy_loss.png" width=300px height=300px>
 
 
@@ -79,23 +68,26 @@ Hello-CNN/
 ├── MNIST/
 │   ├── main.ipynb
 │   └── output/
-│       ├── accuracy.png
-│       └── loss.png
+│       ├── DL_accuracy_loss.png
+│       └── ML_accuracy_loss.png
 ├── Fashion-MNIST/
 │   ├── main.ipynb
 │   └── output/
-│       ├── accuracy.png
-│       └── loss.png
+│       ├── DL_accuracy_loss.png
+│       └── ML_accuracy_loss.png
 ├── CIFAR-10/
 │   ├── main.ipynb
 │   └── output/
+│       ├── DL_accuracy_loss.png
+│       └── ML_accuracy_loss.png
 ├── CIFAR-100/
 │   ├── main.ipynb
 │   └── output/
-└── README.md
+│       ├── DL_accuracy_loss.png
+│       └── ML_accuracy_loss.png
+│── README.md
+└── requirement.txt
 ```
-
-*The CIFAR directories represent the planned project structure and may be added when their implementations begin.*
 
 ## 🧠 Models
 
