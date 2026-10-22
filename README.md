@@ -158,3 +158,5 @@ The models use the Adam optimizer, Sparse Categorical Crossentropy loss, and acc
 Build a practical understanding of neural networks by experimenting with different architectures, comparing their results, and documenting the learning process.
 
 **Hello CNN — learning Deep Learning one dataset at a time.**
+
+Created by Sajjad Saljoughi
